@@ -20,6 +20,7 @@ setuptools.setup(
             'scikit-learn',
             'tqdm',
             'argparse',
+            'datasets',
         ],
     classifiers=[
         "Programming Language :: Python :: 3",
