@@ -88,7 +88,7 @@ def detect(text):
     """
     The `detect()` is used to determine whether the given text comes from GPT-2, LLaMA, BART, OPT, UniLM, T5, Bloom, GPT-neo, or Human-write.
     """
-
+    
     # Determine whether the input is a single text or a collection of text.
     if isinstance(text, str):
         test_text = [text]
